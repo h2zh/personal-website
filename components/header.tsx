@@ -33,10 +33,10 @@ const Header = () => {
       </div>
       <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
         <Image
-          alt="Howard Zhong"
+          alt="Avatar"
           height={176}
           width={176}
-          src="/avatar.jpeg"
+          src="/avatar.jpg"
           sizes="30vw"
           priority
           className="rounded-full"
@@ -44,16 +44,6 @@ const Header = () => {
       </div>
       
     </div>
-    // <div className="text-center border-b border-slate-300 p-4 text-gray-500">
-    //   <Link href='/'>
-    //     <a className="text-2xl font-bold text-slate-800">Howard Zhong</a>
-    //   </Link>
-    //   <div>MSCS @UW-Madison</div>
-    //   <div className="flex justify-center gap-2 text-sm">
-    //     <div>Mobile: (608) 982-5108</div>
-    //     <div>Email: hzhong45@wisc.edu</div>
-    //   </div>
-    // </div>
   );
 };
 
