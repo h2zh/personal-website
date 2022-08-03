@@ -1,11 +1,9 @@
 import type { NextPage } from "next";
-// import Head from "next/head";
-// import Image from "next/image";
-// import Footer from "../components/footer";
-// import Header from "../components/header";
-// import Layout from "../components/layout";
+import Header from "../components/header";
 import Profile from "../components/profile";
+import Projects from "../components/projects";
 import ProjectPreview, {ProjectPreviewInterface} from "../components/project_preview";
+// This website is inspired by Lee Robinson's portfolio website
 
 const Home: NextPage = () => {
 
@@ -49,9 +47,8 @@ const Home: NextPage = () => {
 
   return (
     <div className="">
-      <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-1 text-black">
-            Featured Projects
-      </h3>
+      <Header />
+      <Projects />
       <div className="mt-4 flex flex-col gap-4">
         {projectPreviewElements}
       </div>
