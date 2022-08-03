@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,7 +6,6 @@ import Link from "next/link";
 import projectImage from "../public/screen.jpg";
 
 const Project1: NextPage = () => {
-  const back_icon = <FontAwesomeIcon icon={faArrowLeft} />;
 
   return (
     <div>
