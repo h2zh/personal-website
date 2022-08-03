@@ -15,7 +15,7 @@ const Project1: NextPage = () => {
         <h4 className="w-full mb-4 font-semibold text-2xl text-gray-900 md:text-2xl">
           Full Stack E-commerce App
         </h4>
-        <Image src={projectImage}></Image>
+        <Image src={projectImage} alt="project picture"></Image>
       </div>
       <p className="text-gray-600 mt-4">
         To be updated.

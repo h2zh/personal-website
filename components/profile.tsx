@@ -5,7 +5,7 @@ const Profile = () => {
         About Me
       </h3>
       <p className="text-gray-600 mt-3 mb-4">
-        Howdy! I'm Howard Zhong, a computer science major student at University of Wisconsin-Madison, 
+        Howdy! I&apos;m Howard Zhong, a computer science major student at University of Wisconsin-Madison, 
         expecting to graduate in May 2024.
       </p>
     
