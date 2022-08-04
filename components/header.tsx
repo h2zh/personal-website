@@ -2,13 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
-
 const Header = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-start">
+    <div className="flex flex-col-reverse sm:flex-row items-start">
       <div className="flex flex-col pr-8">
         <Link href='/'>
-          <a className="font-bold text-2xl md:text-5xl tracking-tight mb-1 text-black">
+          <a className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black">
             Howard Zhong
           </a>
         </Link>
