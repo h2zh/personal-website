@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Avatar from "../public/avatar.jpg";
+import Avatar from "../public/avatar.jpg"; // this is the proper way to display this image on Github Pages
 
 const Header = () => {
   return (
