@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Avatar from "../public/avatar.jpg";
 
 const Header = () => {
   return (
@@ -35,7 +36,7 @@ const Header = () => {
           alt="Avatar"
           height={176}
           width={176}
-          src="/avatar.jpg"
+          src={Avatar}
           sizes="30vw"
           priority
           className="rounded-full"
