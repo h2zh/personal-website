@@ -21,16 +21,16 @@ const Home: NextPage = () => {
     {
       title: "Full Stack Pinterest Clone App with Next.js, Sanity",
       description: "Next.js, Sanity",
-      linkUrl: "/Project1",
+      linkUrl: "https://patternlot.vercel.app/",
       image: "/hci.jpg",
       gradiant: "from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
     }
   );
   projectMetadataArray.push(
     {
-      title: "Frontend Personal Website with NextJS, React, Tailwind CSS, TypeScript",
+      title: "GeoDev: An intereactive street light map with Mapbox GL JS, NextJS, React",
       description: "NextJS, React, Tailwind CSS, TypeScript",
-      linkUrl: "/",
+      linkUrl: "https://brightway.vercel.app/",
       image: "/hci.jpg",
       gradiant: "from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
     }
