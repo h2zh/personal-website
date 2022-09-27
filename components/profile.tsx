@@ -10,10 +10,10 @@ const Profile = () => {
       <div className="text-gray-600 mt-3 mb-4">
         <p>
           Howard Zhong is a computer science major student at University of
-          Wisconsin-Madison, expecting to graduate in May 2024. He developed
-          MERN stack apps and utilized various full-stack development tools
-          during his internship and for side projects. As a programmer, he aims
-          to build apps to make life easier and strengthen neighborhoods.
+          Wisconsin-Madison, expecting to graduate in May 2024. He develops apps
+          utilizing various full-stack development tools in his side projects
+          and during the internship. As a programmer, he aims to build apps to
+          make life easier and strengthen neighborhoods.
         </p>
       </div>
       <div className="prose leading-8 tracking-tight ">
