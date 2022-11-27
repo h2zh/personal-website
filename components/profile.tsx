@@ -9,11 +9,13 @@ const Profile = () => {
       </h1>
       <div className="text-gray-600 mt-3 mb-4">
         <p>
-          Howard Zhong is a computer science major student at University of
-          Wisconsin-Madison, expecting to graduate in May 2024. He develops apps
-          utilizing various full-stack development tools in his side projects
-          and during the internship. As a programmer, he aims to build apps to
-          make life easier and strengthen neighborhoods.
+          Howard Zhong is a MSCS student at University of Wisconsin-Madison,
+          expecting to graduate in May 2024. He develops apps utilizing various
+          full-stack development tools in his internships and side projects. As
+          a programmer, he aims to build apps to make life easier and strengthen
+          neighborhoods. He is currently a frontend developer for an open source
+          civic hacking project named Ghost Buses at Chi Hack Night. Previously
+          he gained his Bachelor of Engineering in Transportation in 2021.
         </p>
       </div>
       <div className="prose leading-8 tracking-tight ">
