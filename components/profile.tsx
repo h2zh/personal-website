@@ -52,7 +52,8 @@ const Profile = () => {
           <li>
             Refactored Java Spring Boot microservices, improving performance
             from 500 QPS to 50,000 QPS by deploying Redis and RocketMQ for the
-            “Limited Time Promotion & Buy Now” business requirement
+            &lsquo;&lsquo;Limited Time Promotion & Buy Now&rsquo;&rsquo;
+            business requirement
           </li>
           <li>
             Worked with tech leads to finalize architectural design according to
@@ -60,9 +61,9 @@ const Profile = () => {
           </li>
           <li>
             Designed peak-load shifting for order service by asynchronously
-            creating orders using RocketMQ. Implemented “Pay-check & Cancel” by
-            consuming delay message. Optimized optimistic-lock of updating
-            inventory in MySQL
+            creating orders using RocketMQ. Implemented &lsquo;&lsquo;Pay-check
+            & Cancel&rsquo;&rsquo; by consuming delay message. Optimized
+            optimistic-lock of updating inventory in MySQL
           </li>
           <li>
             Documented internal knowledge base on Confluence to assist new hires
