@@ -27,7 +27,7 @@ const AboutMe = () => {
           wanted to uncover the mechanism of these tiny but powerful software.
           To understand the programming fundamentals, I started with Java.
           Later, I learned more backend frameworks based on Java and got
-          exposure to web development in Javascript. Now, I'm learning to
+          exposure to web development in Javascript. Now, I&apos;m learning to
           develop high impact system built on the cloud.
         </p>
       </div>
