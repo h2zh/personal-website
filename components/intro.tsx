@@ -3,10 +3,10 @@ import Image from "next/image";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Avatar from "../public/avatar.jpg"; // this is the proper way to display this image on Github Pages
 
-const Header = () => {
+const Intro = () => {
   return (
     <div className="flex flex-col-reverse sm:flex-row items-start justify-evenly">
-      <div className="flex flex-col pr-8">
+      <div className="flex flex-col pr-12">
         <Link href="/">
           <a className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black">
             Howard Zhong
@@ -31,13 +31,12 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className="w-[80px] sm:w-[176px]  mb-6 sm:mb-0 mr-auto">
+      <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
         <Image
           alt="Avatar"
-          height={176}
-          width={176}
+          height={120}
+          width={120}
           src={Avatar}
-          sizes="30vw"
           priority
           className="rounded-full"
         />
@@ -46,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Intro;

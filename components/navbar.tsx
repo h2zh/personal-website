@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import NextLink from "next/link";
+import Link from "next/link";
 import React, { useState } from "react";
 import cn from "classnames";
 import { HiMenuAlt4 } from "react-icons/hi";
@@ -9,19 +9,18 @@ function NavItem({ href, text }: any) {
   const isActive = router.asPath === href;
 
   return (
-    <NextLink href={href}>
-      <a
+    <>
+      <div
         className={cn(
           isActive
             ? "font-semibold text-gray-800"
             : "font-normal text-gray-600",
           "md:inline-block sm:px-3 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all"
-          // hidden
         )}
       >
-        <span className="capsize">{text}</span>
-      </a>
-    </NextLink>
+        <Link href={href}>{text}</Link>
+      </div>
+    </>
   );
 }
 
@@ -49,8 +48,8 @@ const Navbar = () => {
       >
         <div className="ml-[-0.60rem]">
           <NavItem href="/" text="Home" />
-          <NavItem href="/#projects" text="Projects" />
-          <NavItem href="/#profile" text="About Me" />
+          <NavItem href="/projects" text="Projects" />
+          <NavItem href="/aboutme" text="About Me" />
         </div>
       </nav>
     </div>
