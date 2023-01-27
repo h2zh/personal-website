@@ -9,9 +9,9 @@ const Profile = () => {
       </h1>
       <div className="text-gray-600">
         <p>
-          Howard Zhong is a Computer Science Master's student at University of
-          Wisconsin-Madison, expecting to graduate in May 2024. He is
-          enthusiastic in building robust software systems. From enterprise
+          Howard Zhong is a Computer Science Master&rsquo;s student at
+          University of Wisconsin-Madison, expecting to graduate in May 2024. He
+          is enthusiastic in building robust software systems. From enterprise
           microservices built on Java Spring Boot to open-source civil hacking
           project coded with React, he dedicates to full-stack development and
           embraces the opportunities to grow in different settings.
