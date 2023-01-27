@@ -5,7 +5,7 @@ import Avatar from "../public/avatar.jpg"; // this is the proper way to display 
 
 const Header = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row items-start">
+    <div className="flex flex-col-reverse sm:flex-row items-start justify-evenly">
       <div className="flex flex-col pr-8">
         <Link href="/">
           <a className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black">
@@ -16,7 +16,7 @@ const Header = () => {
           MSCS at <span className="font-semibold">UW-Madison</span>
         </h2>
         <p className="text-gray-600 mb-3">
-          Building apps to make life easier and help communities.
+          Building robust apps and help communities.
         </p>
         <div className="flex text-2xl items-center mt-1 gap-3 justify-start text-slate-500">
           <a href="https://github.com/h2zh">
@@ -31,7 +31,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
+      <div className="w-[80px] sm:w-[176px]  mb-6 sm:mb-0 mr-auto">
         <Image
           alt="Avatar"
           height={176}
