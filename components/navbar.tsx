@@ -56,7 +56,8 @@ const Navbar = () => {
         <nav
           className={cn(
             isNavbarVisible ? "visible" : "hidden",
-            "flex flex-row justify-start relative max-w-xl pb-2 text-gray-900"
+            "sm:flex flex-row justify-start relative max-w-xl pb-2 text-gray-900"
+            // sm:flex aims to display whole navbar when screen size grow
           )}
         >
           <div className="ml-[-0.60rem]">
