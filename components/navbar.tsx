@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import React, { useState } from "react";
 import cn from "classnames";
-import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { HiMenuAlt4, HiMinus } from "react-icons/hi";
 
 function NavItem({ href, text }: any) {
   const router = useRouter();
@@ -15,7 +15,7 @@ function NavItem({ href, text }: any) {
           isActive
             ? "font-semibold text-gray-800"
             : "font-normal text-gray-600",
-          "md:inline-block sm:px-3 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all"
+          "inline-block sm:px-3 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all"
         )}
       >
         <Link href={href}>{text}</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             "text-2xl sm:hidden absolute right-8"
           )}
         >
-          <HiX onClick={handleNav} />
+          <HiMinus onClick={handleNav} />
         </nav>
       </div>
       {/* left Navbar */}
@@ -59,7 +59,7 @@ const Navbar = () => {
             "flex flex-row justify-start relative max-w-xl pb-2 text-gray-900"
           )}
         >
-          <div className="">
+          <div className="ml-[-0.60rem]">
             <NavItem href="/" text="Home" />
             <NavItem href="/projects" text="Projects" />
             <NavItem href="/aboutme" text="About Me" />

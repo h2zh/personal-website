@@ -1,9 +1,15 @@
 import React from "react";
 import Profile from "../components/profile";
+import Head from "next/head";
 
 const AboutMe = () => {
   return (
     <div>
+      <Head>
+        <title>More about Howard</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       {/* <Profile /> */}
       <h1 className="font-bold text-2xl md:text-2xl tracking-tight mb-0 text-black">
         Why CS
