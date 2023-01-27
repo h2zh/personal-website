@@ -17,6 +17,7 @@ const Profile = () => {
           embraces the opportunities to grow in different settings.
         </p>
       </div>
+
       <div className="prose leading-7 tracking-normal ">
         <h3 className="font-bold text-lg prose text-black">Tech Stack</h3>
         <ul className="list-disc pl-4">
@@ -44,10 +45,6 @@ const Profile = () => {
           <div>Software Engineer Intern at Patternlot</div>
           <div>June 2022 – Aug 2022</div>
         </div>
-        {/* <div className="flex flex-row justify-between">
-          <div></div>
-          <div>Remote</div>
-        </div> */}
         <ul className="list-disc pl-4">
           <li>
             Refactored Java Spring Boot microservices, improving performance

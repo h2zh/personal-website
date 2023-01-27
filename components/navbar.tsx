@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import React, { useState } from "react";
 import cn from "classnames";
-import { HiMenuAlt4 } from "react-icons/hi";
+import { HiMenuAlt4, HiX } from "react-icons/hi";
 
 function NavItem({ href, text }: any) {
   const router = useRouter();
@@ -31,27 +31,41 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center">
-      <nav
-        className={cn(
-          isNavbarVisible ? "hidden" : "visible",
-          "text-2xl sm:hidden mb-4"
-        )}
-      >
-        <HiMenuAlt4 onClick={handleNav} />
-      </nav>
-      <nav
-        className={cn(
-          isNavbarVisible ? "visible" : "hidden",
-          "sm:flex items-center justify-start w-full relative max-w-2xl mx-auto pb-2 sm:pb-2  text-gray-900"
-        )}
-      >
-        <div className="ml-[-0.60rem]">
-          <NavItem href="/" text="Home" />
-          <NavItem href="/projects" text="Projects" />
-          <NavItem href="/aboutme" text="About Me" />
-        </div>
-      </nav>
+    <div className="justify-between">
+      {/* right control button */}
+      <div>
+        <nav
+          className={cn(
+            isNavbarVisible ? "hidden" : "visible",
+            "text-2xl sm:hidden absolute right-8"
+          )}
+        >
+          <HiMenuAlt4 onClick={handleNav} />
+        </nav>
+        <nav
+          className={cn(
+            isNavbarVisible ? "visible" : "hidden",
+            "text-2xl sm:hidden absolute right-8"
+          )}
+        >
+          <HiX onClick={handleNav} />
+        </nav>
+      </div>
+      {/* left Navbar */}
+      <div className="flex flex-row ">
+        <nav
+          className={cn(
+            isNavbarVisible ? "visible" : "hidden",
+            "flex flex-row justify-start relative max-w-xl pb-2 text-gray-900"
+          )}
+        >
+          <div className="">
+            <NavItem href="/" text="Home" />
+            <NavItem href="/projects" text="Projects" />
+            <NavItem href="/aboutme" text="About Me" />
+          </div>
+        </nav>
+      </div>
     </div>
   );
 };
