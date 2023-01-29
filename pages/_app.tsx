@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       {/* <GoogleAnalytics trackPageViews /> */}
       <Script
+        id="google-analytics"
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-K4L33V9R1X"
       >
