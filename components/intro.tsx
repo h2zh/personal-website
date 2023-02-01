@@ -16,7 +16,8 @@ const Intro = () => {
           MSCS at <span className="font-semibold">UW-Madison</span>
         </h2>
         <p className="text-gray-600 mb-3">
-          Building robust apps and help communities.
+          Looking for Software Engineer Intern role in Summer, Fall 2023
+          {/* Building robust apps and help communities. */}
         </p>
         <div className="flex text-2xl items-center mt-1 gap-3 justify-start text-slate-500">
           <a href="https://github.com/h2zh">
