@@ -22,7 +22,7 @@ const ProjectPreview = (props: ProjectPreviewInterface) => {
       </div>
       <ul className="list-disc pl-4">
         {props.description.map((des, idx) => {
-          return <li> {des}</li>;
+          return <li key={idx}> {des}</li>;
         })}
       </ul>
     </div>
