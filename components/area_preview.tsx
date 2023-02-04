@@ -9,6 +9,7 @@ export interface AreaOfInterestInterface {
   url: string;
   projects: ProjectPreviewInterface[];
   gradient: string;
+  category: string;
 }
 
 const AreaPreview = (props: AreaOfInterestInterface) => {

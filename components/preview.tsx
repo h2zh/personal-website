@@ -15,18 +15,21 @@ const Preview = () => {
     url: "",
     projects: [],
     gradient: "from-[#9bafd9] via-[#c6f8ff] to-[#103783]",
+    category: "backend",
   });
   areaMetadataArray.push({
     name: "Fullstack Dev",
     url: "",
     projects: [],
     gradient: "from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]",
+    category: "fullstack",
   });
   areaMetadataArray.push({
     name: "Open-source Projects",
     url: "",
     projects: [],
     gradient: "from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]",
+    category: "opensource",
   });
 
   const areaPreviewElements = [];

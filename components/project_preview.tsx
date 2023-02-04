@@ -9,14 +9,14 @@ export interface ProjectPreviewInterface {
   description: string[];
   linkUrl: string;
   image: string;
-  gradiant: string;
+  category: string;
 }
 
 const ProjectPreview = (props: ProjectPreviewInterface) => {
   return (
-    <div className="flex flex-col justify-between h-full w-full bg-white rounded-lg py-4">
+    <div className="flex flex-col justify-between h-full w-full bg-white rounded-lg py-3">
       <div className="flex flex-col md:flex-row justify-between">
-        <h4 className="text-lg md:text-lg font-medium mb-4 sm:mb-5 w-full text-gray-900 ">
+        <h4 className="text-lg md:text-lg font-medium mb-3 sm:mb-4 w-full text-gray-900 ">
           {props.title}
         </h4>
       </div>
