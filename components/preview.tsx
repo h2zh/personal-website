@@ -49,6 +49,13 @@ const Preview = () => {
           {areaPreviewElements}
         </div>
       </Link>
+      <div className="mt-3">
+        Visit my{" "}
+        <Link href="https://dev.to/h2zh">
+          <a className="text-blue-700">Blockchain</a>
+        </Link>{" "}
+        blog
+      </div>
     </div>
   );
 };
