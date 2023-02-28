@@ -12,6 +12,10 @@ const Home: NextPage = () => {
         <title>Howard Zhong - Open to work</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="google-site-verification"
+          content="qA4NIYywHFdQtbuCLy61QVcskM73Un_rL4AjlUaz9Fs"
+        />
       </Head>
       <Intro />
       <Preview />
