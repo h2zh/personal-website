@@ -16,6 +16,11 @@ const Home: NextPage = () => {
           name="google-site-verification"
           content="qA4NIYywHFdQtbuCLy61QVcskM73Un_rL4AjlUaz9Fs"
         />
+        <link
+          rel="canonical"
+          href="https://howardzhong.vercel.app/"
+          key="canonical"
+        />
       </Head>
       <Intro />
       <Preview />
