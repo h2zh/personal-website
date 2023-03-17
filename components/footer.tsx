@@ -12,7 +12,7 @@ const Footer = () => {
               <FaGithub />
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/hehuan-zhong/">
+          <a href="https://www.linkedin.com/in/howard-zhong-uwmadison/">
             <div className="hover:scale-110 ease-in">
               <FaLinkedinIn />
             </div>
