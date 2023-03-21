@@ -38,6 +38,17 @@ const Projects = () => {
     image: "/screen.jpg",
     category: "backend",
   });
+  projectMetadataArray.push({
+    title: "ChatAero.com | GPT-based aviation message decoder",
+    description: [
+      "Built with React and Material UI. Prompted GPT-3.5 model to generate JSON data based on user input",
+      "Developed RESTful APIs to do client-side JSON data fetching on top of a Static Generation chatbox interface",
+      "Integrated Redux for efficient state management and utilized Thunk middleware for async Firebase user authentication",
+    ],
+    linkUrl: "https://www.chataero.com/",
+    image: "/screen.jpg",
+    category: "fullstack",
+  });
 
   const projectPreviewElements = [];
 
@@ -63,16 +74,59 @@ const Projects = () => {
         </h3>
         <div
           className={cn(
-            "rounded-lg w-full p-2 mt-6",
-            "bg-gradient-to-r from-[#9bafd9] via-[#c6f8ff] to-[#103783]"
+            "bg-gradient-to-r from-[#9bafd9] via-[#c6f8ff] to-[#103783]",
+            "rounded-xl w-full md:w-full bg-gradient-to-r p-1",
+            "flex mt-6"
           )}
         >
-          <h4 className="text-lg md:text-xl font-bold text-center">
-            Backend Development
-          </h4>
+          <div className="flex flex-col justify-center h-full w-full bg-white rounded-lg p-2">
+            <div className="flex flex-col md:flex-row justify-center ">
+              <h4
+                className="text-lg md:text-xl font-bold text-center"
+                id="Backend"
+              >
+                Backend Development
+              </h4>
+            </div>
+          </div>
         </div>
         <div className="mt-4 flex flex-col gap-4 items-stretch ">
-          {projectPreviewElements}
+          {projectMetadataArray
+            .filter((project) => {
+              return project.category === "backend";
+            })
+            .map((project, idx) => {
+              console.log(project.title);
+              return <ProjectPreview {...project} key={idx} />;
+            })}
+        </div>
+
+        <div
+          className={cn(
+            "bg-gradient-to-r from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] ",
+            "rounded-xl w-full md:w-full bg-gradient-to-r p-1",
+            "flex mt-6"
+          )}
+        >
+          <div className="flex flex-col justify-center h-full w-full bg-white rounded-lg p-2">
+            <div className="flex flex-col md:flex-row justify-center ">
+              <h4
+                className="text-lg md:text-xl font-bold text-center"
+                id="Fullstack"
+              >
+                Fullstack Development
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="mt-4 flex flex-col gap-4 items-stretch ">
+          {projectMetadataArray
+            .filter((project) => {
+              return project.category === "fullstack";
+            })
+            .map((project, idx) => {
+              return <ProjectPreview {...project} key={idx} />;
+            })}
         </div>
       </div>
     </div>

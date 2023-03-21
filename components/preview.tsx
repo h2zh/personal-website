@@ -12,21 +12,21 @@ const Preview = () => {
   const areaMetadataArray = [];
   areaMetadataArray.push({
     name: "Backend Dev",
-    url: "",
+    url: "./projects#Backend",
     projects: [],
     gradient: "from-[#9bafd9] via-[#c6f8ff] to-[#103783]",
     category: "backend",
   });
   areaMetadataArray.push({
     name: "Fullstack Dev",
-    url: "",
+    url: "./projects#Fullstack",
     projects: [],
     gradient: "from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]",
     category: "fullstack",
   });
   areaMetadataArray.push({
     name: "Open-source Projects",
-    url: "",
+    url: "./projects",
     projects: [],
     gradient: "from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]",
     category: "opensource",
@@ -44,18 +44,16 @@ const Preview = () => {
       <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-8 text-black">
         Areas{/* Featured Projects */}
       </h3>
-      <Link href="/projects">
-        <div className="mt-4 flex flex-row gap-4 items-stretch md:max-w-md">
-          {areaPreviewElements}
-        </div>
-      </Link>
-      <div className="mt-3">
+      <div className="mt-4 flex flex-row gap-4 items-stretch md:max-w-md">
+        {areaPreviewElements}
+      </div>
+      {/* <div className="mt-3">
         Visit my{" "}
         <Link href="https://dev.to/h2zh">
           <a className="text-blue-700">Blockchain</a>
         </Link>{" "}
         blog
-      </div>
+      </div> */}
     </div>
   );
 };

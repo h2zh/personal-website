@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import cn from "classnames";
-import React from "react";
+import React, { useRef } from "react";
+
+import { FaLink } from "react-icons/fa";
 
 // An interface/class for props
 export interface ProjectPreviewInterface {
@@ -13,11 +15,23 @@ export interface ProjectPreviewInterface {
 }
 
 const ProjectPreview = (props: ProjectPreviewInterface) => {
+  const ref = useRef(); // to contain logo and text in a Link component
+  const buttonRef = ref.current && <FaLink />;
   return (
     <div className="flex flex-col justify-between h-full w-full bg-white rounded-lg py-3">
       <div className="flex flex-col md:flex-row justify-between">
         <h4 className="text-lg md:text-lg font-medium mb-3 sm:mb-4 w-full text-gray-900 ">
-          {props.title}
+          {props.linkUrl ? (
+            <Link href={props.linkUrl}>
+              <a className="flex flex-row">
+                <FaLink size={"25px"} />
+                <span>&nbsp; {props.title}</span>{" "}
+                {/* add space between icon and text */}
+              </a>
+            </Link>
+          ) : (
+            props.title
+          )}
         </h4>
       </div>
       <ul className="list-disc pl-4">
