@@ -39,6 +39,17 @@ const Projects = () => {
     category: "backend",
   });
   projectMetadataArray.push({
+    title: "Decentralized Crowdfunding",
+    description: [
+      "Implemented customized smart contract interactions in its entire life cycle (create, contribute, withdraw, refund, finalize) with Web3.js, Ethers.js",
+      "Built a backend Node.js server to perform database operations in MongoDB",
+      "Developed a Next.js frontend interface with Redux, NextAuth and Tailwind CSS",
+    ],
+    linkUrl: "https://github.com/h2zh/DApp-Fullstack",
+    image: "/screen.jpg",
+    category: "fullstack",
+  });
+  projectMetadataArray.push({
     title: "ChatAero.com | GPT-based aviation message decoder",
     description: [
       "Built with React and Material UI. Prompted GPT-3.5 model to generate JSON data based on user input",

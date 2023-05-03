@@ -23,9 +23,9 @@ const ProjectPreview = (props: ProjectPreviewInterface) => {
         <h4 className="text-lg md:text-lg font-medium mb-3 sm:mb-4 w-full text-gray-900 ">
           {props.linkUrl ? (
             <Link href={props.linkUrl}>
-              <a className="flex flex-row">
-                <FaLink size={"25px"} />
-                <span>&nbsp; {props.title}</span>{" "}
+              <a className="flex flex-row items-center space-x-1">
+                <FaLink size={"15px"} />
+                <span>&nbsp; {props.title}</span>
                 {/* add space between icon and text */}
               </a>
             </Link>
