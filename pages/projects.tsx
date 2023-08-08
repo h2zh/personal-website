@@ -8,7 +8,7 @@ const Projects = () => {
   const projectMetadataArray = [];
   projectMetadataArray.push({
     title:
-      "Java Spring Boot Micro-services: Order and Promotion System (Intern Project at Patternlot)",
+      "Java Spring Boot Micro-services: Order and Promotion System (Intern Project at Liba)",
     description: [
       "Refactored Java Spring Boot microservices, improving performance \
       from 500 QPS to 50,000 QPS by deploying Redis and RocketMQ for the \
