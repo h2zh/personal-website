@@ -22,7 +22,6 @@ const Profile = () => {
       "Refactored Java Spring Boot microservices, improving performance from 500 QPS to 50,000 QPS by deploying Redis and RocketMQ for the 'Limited Time Promotion & Buy Now' business requirement",
       "Worked with tech leads to finalize architectural design according to Domain-Driven Design principles",
       "Designed peak-load shifting for order service by asynchronously creating orders using RocketMQ. Implemented 'Pay-check & Cancel' by consuming delay message. Optimized optimistic-lock of updating inventory in MySQL",
-      "Documented internal knowledge base on Confluence to assist new hires on their ramp-up process",
     ],
   });
   jobMetadataArray.push({
