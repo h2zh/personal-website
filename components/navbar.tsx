@@ -15,7 +15,7 @@ function NavItem({ href, text }: any) {
           isActive
             ? "font-semibold text-gray-800"
             : "font-normal text-gray-600",
-          "inline-block sm:px-3 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all"
+          "inline-block sm:px-3 p-2 rounded-lg hover:bg-gray-200 transition-all"
         )}
       >
         <Link href={href}>{text}</Link>

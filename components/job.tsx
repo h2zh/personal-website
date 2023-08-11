@@ -2,11 +2,9 @@ import React from "react";
 
 const Job = (props: any) => {
   return (
-    <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex flex-col items-center justify-between px-3 py-4 w-full">
+    <div className="border border-neutral-200  bg-neutral-50  rounded flex flex-col items-center justify-between px-3 py-4 w-full">
       <div className="flex flex-col sm:flex-row justify-between w-full">
-        <div className="font-bold text-neutral-900 dark:text-neutral-100">
-          {props.title}
-        </div>
+        <div className="font-bold text-neutral-900">{props.title}</div>
         <div className="text-base">{props.time}</div>
       </div>
       <div className="flex flex-col sm:flex-row justify-between italic w-full">
