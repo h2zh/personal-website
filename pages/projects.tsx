@@ -60,6 +60,15 @@ const Projects = () => {
     image: "/screen.jpg",
     category: "fullstack",
   });
+  projectMetadataArray.push({
+    title: "linkChicago",
+    description: [
+      "A fullstack website directory application that helps people access credible public services in Chicago. It was built with TypeScript, PostgreSQL, Next.js, Prisma & GraphQL",
+    ],
+    linkUrl: "https://linkchicago.vercel.app/",
+    image: "/screen.jpg",
+    category: "fullstack",
+  });
 
   const projectPreviewElements = [];
 
