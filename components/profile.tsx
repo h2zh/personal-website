@@ -3,6 +3,18 @@ import Job from "./job";
 const Profile = () => {
   const jobMetadataArray = [];
   jobMetadataArray.push({
+    title: "Fullstack Development Intern",
+    company: "Norfolk Southern Corporation",
+    time: "Sep 2023 – Dec 2023",
+    location: "Atlanta, GA",
+    description: [
+      "Developed a Java pipeline and algorithms to migrate 800+ customer reports to new database and backend service",
+      "Worked with tech lead to finalize the new database schema design, optimize the SQL scripts, write technical docs, and debrief stakeholders in the Sprint Review",
+      "Implemented new and refactored existing Spring Boot RESTful APIs, carried out frontend development with JavaScript to meet business needs in Agile workflow, resulting in enhanced system performance",
+      "Utilized Jenkins, OpenShift CI/CD pipelines to configure stages and jobs for automated build and deployment",
+    ],
+  });
+  jobMetadataArray.push({
     title: "Backend Developer (Part-time)",
     company: "URSearch, a start-up affiliated to UW-Madison",
     time: "Aug 2023 – Present",
@@ -19,9 +31,10 @@ const Profile = () => {
     location: "Sunnyvale, CA",
     time: "June 2023 – Aug 2023",
     description: [
-      "Refactored Java Spring Boot microservices, improving performance from 500 QPS to 50,000 QPS by deploying Redis and RocketMQ for the 'Limited Time Promotion & Buy Now' business requirement",
-      "Worked with tech leads to finalize architectural design according to Domain-Driven Design principles",
-      "Designed peak-load shifting for order service by asynchronously creating orders using RocketMQ. Implemented 'Pay-check & Cancel' by consuming delay message. Optimized optimistic-lock of updating inventory in MySQL",
+      "Refactored Java Spring Boot microservices according to Domain-Driven Design principles, to optimize the performance of high-throughput system",
+      "Revised the optimistic-lock in MySQL, avoiding stock inconsistency risks arising from concurrent orders",
+      "Deployed Redis for high throughput scenarios like Flash Sales, improving performance from 500 to 50,000 QPS",
+      "Designed peak-load shifting for order service by asynchronously creating orders using RocketMQ. Implemented 'Pay-check & Cancel' by consuming delay message",
     ],
   });
   jobMetadataArray.push({

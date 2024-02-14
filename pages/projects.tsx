@@ -41,8 +41,10 @@ const Projects = () => {
   projectMetadataArray.push({
     title: "Decentralized Crowdfunding",
     description: [
+      "Developed an account-based distributed system to manage projects, leveraging Flask for internode communication",
+      "Utilized deterministic block hashing and transaction history to ensure distributed system integrity and security",
+      "Established connection between self-hosting distributed system with Ethereum network and Metamask wallet",
       "Implemented customized smart contract interactions in its entire life cycle (create, contribute, withdraw, refund, finalize) with Web3.js, Ethers.js",
-      "Built a backend Node.js server to perform database operations in MongoDB",
       "Developed a Next.js frontend interface with Redux, NextAuth and Tailwind CSS",
     ],
     linkUrl: "https://github.com/h2zh/DApp-Fullstack",
