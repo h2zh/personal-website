@@ -15,14 +15,15 @@ const Profile = () => {
     ],
   });
   jobMetadataArray.push({
-    title: "Backend Developer (Part-time)",
+    title: "Lead Backend Developer (Part-time)",
     company: "URSearch, a start-up affiliated to UW-Madison",
     time: "Aug 2023 – Present",
     location: "Remote",
     description: [
-      "Propose architectural design and build a Golang/PostgresSQL backend of a job search application",
-      "Containerize the service with Docker and deploy it on Microsoft Azure to perform CI/CD",
-      "Work in team to synthesize AI/ML training done in Python with Golang backend",
+      "Lead a team to build, integrate and test APIs of a lab recruitment platform with Golang/PostgreSQL",
+      "Orchestrate a micro-service structure to synthesize the Golang backend, Python algorithms, and file storage respectively with Azure Container App, Serverless Function, Blob storage and PostgreSQL database",
+      "Parallel requests through Go routines & channels, optimizing query performance by 57%",
+      "Apply DevOps integrations with Microsoft Azure, Docker, Github Actions to perform CI/CD",
     ],
   });
   jobMetadataArray.push({
