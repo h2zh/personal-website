@@ -21,15 +21,14 @@ const Resume = () => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <h1 className="font-bold text-2xl md:text-2xl tracking-tight mb-4 text-black">
-        Howard Zhong&apos;s Resume
-      </h1>
       {isClient ? (
         <iframe
           src="/Howard_Zhong_Resume_0429.pdf"
           width="100%"
-          height="600px"
-          style={{ border: "none" }}
+          style={{
+            height: "100vh",
+            border: "none",
+          }}
         >
           This browser does not support PDFs. Please download the PDF to view
           it: <a href="/Howard_Zhong_Resume_0429.pdf">Download PDF</a>
