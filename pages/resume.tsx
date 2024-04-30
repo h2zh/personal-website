@@ -17,12 +17,12 @@ const Resume = () => {
   return (
     <div>
       <Head>
-        <title>Howard Zhong's Latest Resume</title>
+        <title>Howard Zhong&apos;s Latest Resume</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <h1 className="font-bold text-2xl md:text-2xl tracking-tight mb-4 text-black">
-        Howard Zhong's Resume
+        Howard Zhong&apos;s Resume
       </h1>
       {isClient ? (
         <iframe
