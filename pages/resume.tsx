@@ -23,7 +23,7 @@ const Resume = () => {
       </Head>
       {isClient ? (
         <iframe
-          src="/Howard_Zhong_Resume_0429.pdf"
+          src="/Howard_ZHONG_Resume_1211.pdf"
           width="100%"
           style={{
             height: "100vh",
@@ -31,7 +31,7 @@ const Resume = () => {
           }}
         >
           This browser does not support PDFs. Please download the PDF to view
-          it: <a href="/Howard_Zhong_Resume_0429.pdf">Download PDF</a>
+          it: <a href="/Howard_ZHONG_Resume_1211.pdf">Download PDF</a>
         </iframe>
       ) : (
         <div>Loading client component...</div>

@@ -8,6 +8,17 @@ const Projects = () => {
   const projectMetadataArray = [];
   projectMetadataArray.push({
     title:
+      "The Pelican Platform for creating data federations (Project at CHTC)",
+    description: [
+      "Build the core features of Pelican (a.k.a. Open Science Data Federation, OSDF), a worldwide distributed computing infrastructure supporting high-throughput data transfer up to PB-scale",
+      "Golang development items: Issuer public/privite keys rotation; Server downtime persistence; APIs",
+    ],
+    linkUrl: "https://pelicanplatform.org/",
+    image: "/hci.jpg",
+    category: "backend",
+  });
+  projectMetadataArray.push({
+    title:
       "Java Spring Boot Micro-services: Order and Promotion System (Intern Project at Liba)",
     description: [
       "Refactored Java Spring Boot microservices, improving performance \

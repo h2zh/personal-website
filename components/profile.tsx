@@ -3,6 +3,18 @@ import Job from "./job";
 const Profile = () => {
   const jobMetadataArray = [];
   jobMetadataArray.push({
+    title: "Research Software Engineer",
+    company:
+      "Center for High Throughput Computing - Morgridge Institute for Research",
+    time: "Oct 2024 – Present",
+    location: "Madison, WI",
+    description: [
+      "Build the core features of Pelican (a.k.a. Open Science Data Federation, OSDF), a worldwide distributed computing infrastructure supporting high-throughput data transfer up to PB-scale",
+      "Golang development items: Issuer public/privite keys rotation; Server downtime persistence; APIs",
+      "PR reviews: Kubernetes operator, NextJS web UI; Support high-profile customers like FermiLab, LIGO",
+    ],
+  });
+  jobMetadataArray.push({
     title: "Fullstack Development Intern",
     company: "Norfolk Southern Corporation",
     time: "Sep 2023 – Dec 2023",
@@ -15,12 +27,12 @@ const Profile = () => {
     ],
   });
   jobMetadataArray.push({
-    title: "Lead Backend Developer (Part-time)",
-    company: "URSearch, a start-up affiliated to UW-Madison",
-    time: "Aug 2023 – Present",
-    location: "Remote",
+    title: "Backend Developer, Student Lead",
+    company: "UW School of Medicine and Public Health",
+    time: "Aug 2023 – May 2024",
+    location: "Madison, WI (Hybrid)",
     description: [
-      "Lead a team to build, integrate and test APIs of a lab recruitment platform with Golang/PostgreSQL",
+      "Lead a team to build, integrate and test APIs of a lab recruitment platform with Golang/PostgreSQL, which was selected to NSF Regional I-Corps",
       "Orchestrate a micro-service structure to synthesize the Golang backend, Python algorithms, and file storage respectively with Azure Container App, Serverless Function, Blob storage and PostgreSQL database",
       "Parallel requests through Go routines & channels, optimizing query performance by 57%",
       "Apply DevOps integrations with Microsoft Azure, Docker, Github Actions to perform CI/CD",
@@ -71,12 +83,14 @@ const Profile = () => {
       </h1>
       <div className="text-gray-600">
         <p>
-          Howard Zhong is a Computer Science Master&rsquo;s student at
-          University of Wisconsin-Madison, expecting to graduate in May 2024. He
-          is enthusiastic in building robust software systems. From enterprise
-          microservices built on Java Spring Boot to open-source civil hacking
-          project coded with React, he dedicates to full-stack development and
-          embraces the opportunities to grow in different settings.
+          Howard Zhong is a research software engineer who works on the
+          &ldquo;Netflix&rdquo; of PB-scale data. He obtained his Master of
+          Science degree in Computer Science from UW-Madison. He has more than 1
+          year of experience in building robust software systems. From
+          enterprise microservices built on Java Spring Boot to open-source data
+          federation platform, he dedicates to backend and full-stack
+          development, embracing the opportunities to grow in different
+          settings.
         </p>
       </div>
 

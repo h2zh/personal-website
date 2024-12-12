@@ -13,10 +13,13 @@ const Intro = () => {
           </a>
         </Link>
         <h2 className="text-gray-700 mb-4">
-          MSCS at <span className="font-semibold">UW-Madison</span>
+          Research SWE at <span className="font-semibold">CHTC</span>, MSCS at{" "}
+          <span className="font-semibold">UW-Madison</span>
         </h2>
         <p className="text-gray-600 mb-3">
-          Looking for 2024 Software Engineer New Grad role
+          stay hungry, stay foolish (yeah, I know it’s cliché, but hey, it’s
+          been sitting on my desk since middle school, judging my snack choices
+          and bad ideas ever since)
           {/* Building robust apps and help communities. */}
         </p>
         <div className="flex text-2xl items-center mt-1 gap-3 justify-start text-slate-500">
